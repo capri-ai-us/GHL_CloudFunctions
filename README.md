@@ -1,4 +1,4 @@
-# GHL_CloudFunctions
+# Please Read Before Attempting To Use!
 Use cloud functions to automate your workflow for free!
 
 Use the following environment variables in your cloud function to specify which slack channel, and form/event you want to specify
