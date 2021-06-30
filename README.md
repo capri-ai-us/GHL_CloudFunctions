@@ -29,3 +29,24 @@ Use the following environment variables in your cloud function to specify which 
    SUBMISSION_VALUE3 : email
   
  
+# Google Form Submitted : 
+   SLACK_APP_URL : <Your Slack App URL>
+  
+   SEND_FULL_SUBMISSION : boolean, "TRUE" or "FALSE" --setting true will ignore the rest of the environment variables and send the entire form request
+  
+   NUMBER_OF_SUBMISSIONS : number --total number of the form questions you want to display
+  
+   SLACK_NOTIFICATION_MESSAGE : "We got a new form submission!" -- the message you want to display at the top of the slack message
+  
+   SUBMISSION_NAME1 : First Name --how you want to display the first entry name
+  
+   SUBMISSION_VALUE1 : First Name -- the actual formatted name sent by the API
+  
+   SUBMISSION_NAME2 : Last Name
+  
+   SUBMISSION_VALUE2 : Last Name
+  
+   SUBMISSION_NAME3 : Email
+  
+   SUBMISSION_VALUE3 : Email
+  
